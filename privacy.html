@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="index,follow">
+  <meta name="description" content="Privacy policy for Nightcue, a paced ear-prompter for Android. Nightcue collects no data and sends nothing off your device.">
+  <title>Privacy policy — Nightcue</title>
+  <link rel="icon" href="data:,">
+  <style>
+    /* Self-contained, no external resources. Brand palette from
+       brand/tokens.css in the main app repo. System-font fallbacks chosen
+       so the page never needs to load anything from a CDN — keeps the
+       "no third-party requests" claim true on this page itself. */
+    :root {
+      --surface:      #0E0B08;
+      --surface-elev: #15110C;
+      --surface-card: #1C1712;
+      --ink:          #E8D7C2;
+      --ink-muted:    #8E7B65;
+      --ink-faint:    #4B4036;
+      --accent:       #FFB37A;
+      --accent-dim:   #7C4F2C;
+      --border:       #211B14;
+      --max-width:    640px;
+      --space-1:  4px;
+      --space-2:  8px;
+      --space-3: 12px;
+      --space-4: 16px;
+      --space-5: 24px;
+      --space-6: 32px;
+      --space-7: 48px;
+      --space-8: 64px;
+      --radius: 14px;
+    }
+    *, *::before, *::after { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--surface);
+      color: var(--ink);
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+                   "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 17px;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    body {
+      min-height: 100dvh;
+      padding: var(--space-6) var(--space-5) var(--space-8);
+    }
+    main {
+      max-width: var(--max-width);
+      margin: 0 auto;
+    }
+    header {
+      margin-bottom: var(--space-7);
+      padding-bottom: var(--space-5);
+      border-bottom: 1px solid var(--border);
+    }
+    .ember {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: radial-gradient(
+        circle at center,
+        #FFE3C5 0%,
+        var(--accent) 55%,
+        rgba(255, 179, 122, 0) 75%
+      );
+      margin-bottom: var(--space-4);
+    }
+    h1 {
+      font-family: "Iowan Old Style", "Apple Garamond", Baskerville,
+                   "Times New Roman", Georgia, serif;
+      font-weight: 300;
+      font-style: italic;
+      font-size: 2rem;
+      line-height: 1.15;
+      letter-spacing: -0.01em;
+      margin: 0 0 var(--space-2);
+      color: var(--ink);
+    }
+    .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: 0.18em;
+      font-size: 12px;
+      color: var(--ink-muted);
+      margin: 0 0 var(--space-3);
+    }
+    .updated {
+      font-size: 14px;
+      color: var(--ink-muted);
+      margin: var(--space-3) 0 0;
+      font-variant-numeric: tabular-nums;
+    }
+    h2 {
+      font-family: "Iowan Old Style", "Apple Garamond", Baskerville,
+                   "Times New Roman", Georgia, serif;
+      font-weight: 400;
+      font-style: italic;
+      font-size: 1.4rem;
+      margin: var(--space-7) 0 var(--space-3);
+      color: var(--ink);
+      letter-spacing: -0.01em;
+    }
+    p { margin: 0 0 var(--space-4); }
+    strong { color: var(--ink); font-weight: 600; }
+    a {
+      color: var(--accent);
+      text-decoration: underline;
+      text-decoration-color: var(--accent-dim);
+      text-underline-offset: 3px;
+      transition: text-decoration-color 200ms ease;
+    }
+    a:hover { text-decoration-color: var(--accent); }
+    ul {
+      margin: 0 0 var(--space-4);
+      padding-left: var(--space-5);
+    }
+    li { margin-bottom: var(--space-2); }
+    .callout {
+      background: var(--surface-elev);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: var(--space-4) var(--space-5);
+      margin: var(--space-4) 0;
+    }
+    .callout p:last-child { margin-bottom: 0; }
+    footer {
+      margin-top: var(--space-8);
+      padding-top: var(--space-5);
+      border-top: 1px solid var(--border);
+      font-size: 13px;
+      color: var(--ink-faint);
+      text-align: center;
+    }
+    footer a { color: var(--ink-muted); }
+    @media (max-width: 480px) {
+      body { padding: var(--space-5) var(--space-4) var(--space-7); }
+      h1 { font-size: 1.75rem; }
+      h2 { font-size: 1.25rem; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="ember" aria-hidden="true"></div>
+      <p class="eyebrow">Nightcue</p>
+      <h1>Privacy policy</h1>
+      <p class="updated">Last updated: 2026-05-29</p>
+    </header>
+
+    <p>
+      Nightcue is a paced ear-prompter for Android. It reads any text you paste
+      into it aloud, one line at a time, using your device's built-in
+      text-to-speech engine. The app runs entirely on your device.
+    </p>
+
+    <p>
+      This page explains, in plain language, what information Nightcue handles
+      — and what it doesn't.
+    </p>
+
+    <h2>Data we collect</h2>
+
+    <p>
+      <strong>None.</strong> Nightcue does not collect, transmit, or share any
+      personal information. There are no accounts, no analytics, no
+      advertising, no usage telemetry, and no tracking of any kind.
+    </p>
+
+    <h2>Data stored on your device</h2>
+
+    <p>
+      The following information is stored only in Nightcue's private storage
+      on your device. None of it is uploaded to a server, sent over the
+      network, or shared with us or any third party:
+    </p>
+
+    <ul>
+      <li>The text you paste into the app (stories, speeches, scripture, song
+        lyrics, or any other passage you choose to read aloud).</li>
+      <li>Your pacing, voice, and playback preferences.</li>
+      <li>The last unit you played, so the app can offer to resume where you
+        left off.</li>
+      <li>Your saved-session library (titles, settings, and content for each
+        saved entry).</li>
+      <li>A small set of one-shot flags (e.g. "first-launch hint already
+        shown") so the app doesn't repeat onboarding prompts.</li>
+    </ul>
+
+    <p>
+      Uninstalling Nightcue removes all of this. There is no server-side data
+      to delete; the on-device data <em>is</em> the data, and Android's
+      app-private storage model gives you full control over it.
+    </p>
+
+    <h2>Permissions and why we use them</h2>
+
+    <ul>
+      <li><strong>Internet</strong> — required by the Capacitor framework that
+        Nightcue is built on. The app itself makes no network requests.</li>
+      <li><strong>Foreground service</strong>, <strong>foreground service
+        (media playback)</strong>, <strong>wake lock</strong>,
+        <strong>ignore battery optimizations</strong> — used solely to keep
+        text-to-speech playback running while your screen is off, so a reading
+        or rehearsal session isn't cut short when the phone locks.</li>
+      <li><strong>Post notifications</strong> — used to display the playback
+        notification that Android requires for any foreground media service.
+        The notification also surfaces play/pause/next/previous controls on
+        your lock screen.</li>
+      <li><strong>Billing (Google Play)</strong> — required to offer the
+        optional one-time "Nightcue Pro" purchase. See the next section.</li>
+    </ul>
+
+    <p>
+      The microphone is never accessed. Nightcue does not request the
+      <code>RECORD_AUDIO</code> permission, and no microphone code ships in the
+      app.
+    </p>
+
+    <h2>In-app purchases (Nightcue Pro)</h2>
+
+    <p>
+      Nightcue offers a single one-time purchase called <strong>Nightcue
+      Pro</strong>, which unlocks an unlimited saved-session library. The free
+      version of the app remains fully functional and is capped at three saved
+      sessions.
+    </p>
+
+    <div class="callout">
+      <p>
+        <strong>How the purchase is handled.</strong> When you tap
+        <em>Unlock Pro</em>, the transaction is processed by
+        <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google
+        Play Billing</a>, a service operated by Google. Nightcue does not see
+        or store your name, address, payment-card details, or any other
+        billing information — those are handled entirely by Google under
+        Google's own privacy policy.
+      </p>
+      <p>
+        The only thing Nightcue stores after a successful purchase is a
+        boolean flag, kept in app-private storage, indicating that Pro is
+        unlocked on this device. This flag is reconciled against Google Play's
+        purchase ledger each time the app launches, so refunds and family-
+        sharing changes propagate without us tracking anything ourselves.
+      </p>
+    </div>
+
+    <h2>Third parties</h2>
+
+    <p>
+      Nightcue does not contain advertising SDKs, analytics SDKs, crash
+      reporters, or any other third-party data-collection libraries. The only
+      external services the app interacts with are:
+    </p>
+
+    <ul>
+      <li><strong>Your device's text-to-speech engine</strong> (typically
+        Google's Speech Services or Samsung's TTS, depending on your device).
+        This is part of the Android operating system and runs locally. The
+        text you paste is read aloud by that engine on-device; it is not sent
+        to a cloud service by Nightcue. If your device's TTS engine itself
+        uses a network connection for higher-quality voices, that behavior is
+        governed by the engine provider's own privacy policy and is outside
+        Nightcue's control.</li>
+      <li><strong>Google Play Billing</strong>, as described above, only when
+        you tap Unlock Pro or restore a previous purchase.</li>
+    </ul>
+
+    <h2>Children</h2>
+
+    <p>
+      Nightcue is intended for use by adults. The app is not directed at
+      children, is not in Google Play's Designed for Families program, and
+      does not knowingly collect any information from children. Because the
+      app collects no information from <em>anyone</em>, the children's-privacy
+      promise is the same as the general one — nothing is collected.
+    </p>
+
+    <h2>Changes to this policy</h2>
+
+    <p>
+      If Nightcue's data-handling practices ever change in a material way, the
+      updated policy will be published at this URL and the "Last updated" date
+      above will be bumped accordingly. Where the change affects the answers
+      given in the Google Play Data Safety form, that form will be updated to
+      match.
+    </p>
+
+    <h2>Contact</h2>
+
+    <p>
+      Privacy questions, deletion requests (which are effectively a no-op,
+      since there is no server-side data to delete), or any other concern can
+      be sent to:
+    </p>
+
+    <p>
+      <a href="mailto:igor.vladyka@gmail.com">igor.vladyka@gmail.com</a>
+    </p>
+
+    <footer>
+      © 2026 Nightcue · this page loads no third-party resources
+    </footer>
+  </main>
+</body>
+</html>
